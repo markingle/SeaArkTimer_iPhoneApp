@@ -12,7 +12,6 @@
 		0AEEFBDA2374FA8300CFF2D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEEFBD92374FA8300CFF2D9 /* ViewController.swift */; };
 		0AEEFBDD2374FA8300CFF2D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEEFBDB2374FA8300CFF2D9 /* Main.storyboard */; };
 		0AEEFBDF2374FA8800CFF2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AEEFBDE2374FA8800CFF2D9 /* Assets.xcassets */; };
-		0AEEFBE22374FA8800CFF2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEEFBE02374FA8800CFF2D9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		0AEEFBD92374FA8300CFF2D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0AEEFBDC2374FA8300CFF2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AEEFBDE2374FA8800CFF2D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0AEEFBE12374FA8800CFF2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AEEFBE32374FA8800CFF2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +59,6 @@
 				0AEEFBD92374FA8300CFF2D9 /* ViewController.swift */,
 				0AEEFBDB2374FA8300CFF2D9 /* Main.storyboard */,
 				0AEEFBDE2374FA8800CFF2D9 /* Assets.xcassets */,
-				0AEEFBE02374FA8800CFF2D9 /* LaunchScreen.storyboard */,
 				0AEEFBE32374FA8800CFF2D9 /* Info.plist */,
 			);
 			path = SeaArkTimer_iPhoneApp;
@@ -125,7 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AEEFBE22374FA8800CFF2D9 /* LaunchScreen.storyboard in Resources */,
 				0AEEFBDF2374FA8800CFF2D9 /* Assets.xcassets in Resources */,
 				0AEEFBDD2374FA8300CFF2D9 /* Main.storyboard in Resources */,
 			);
@@ -153,14 +149,6 @@
 				0AEEFBDC2374FA8300CFF2D9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0AEEFBE02374FA8800CFF2D9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0AEEFBE12374FA8800CFF2D9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -216,7 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
