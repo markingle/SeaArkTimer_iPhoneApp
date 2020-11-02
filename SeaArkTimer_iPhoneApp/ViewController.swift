@@ -23,19 +23,18 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     var centralManager: CBCentralManager?
     var SeaArkLivewellTimer: CBPeripheral?
     
+
     @IBOutlet weak var connectionActivityStatus: UIActivityIndicatorView!
     
     @IBOutlet weak var powerSwitch: UISwitch!
-
-    @IBOutlet weak var timerValueLabel: UILabel!
-    @IBOutlet weak var bluetoothOffLabel: UILabel!
   
-    @IBOutlet weak var onTimerSettingLabel: UILabel!
+    @IBOutlet weak var timerValueLabel: UILabel!
+    
+    @IBOutlet weak var bluetoothOffLabel: UILabel!
     @IBOutlet weak var offTimeSettingSlider: UISlider!
-    
-    @IBOutlet weak var offTimerSettingLabel: UILabel!
     @IBOutlet weak var onTimeSettingSlider: UISlider!
-    
+    @IBOutlet weak var onTimerSettingLabel: UILabel!
+    @IBOutlet weak var offTimerSettingLabel: UILabel!
     
     // Characteristics
     private var powerState: CBCharacteristic?
